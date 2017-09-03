@@ -9,4 +9,4 @@
 ## [初等解析問題を解く](./7/README.md)
 
 ## 参照
-+ [Qiitaの数式チートシート](http://qiita.com/PlanetMeron/items/63ac58898541cbe81ada#%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3%E6%96%87%E5%AD%97)
++ [Qiitaの数式チートシート](http://qiita.com/PlanetMeron/items/63ac58898541cbe81ada)
