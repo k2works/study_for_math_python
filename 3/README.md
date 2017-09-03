@@ -95,7 +95,7 @@ class TestListCalaculateModes(unittest.TestCase):
     def test_01(self):
         scores = [5, 5, 5, 4, 4, 4, 9, 1, 3]
         modes = calculate_modes(scores)
-        self.assertEqual( modes, [4, 5])
+        self.assertEqual( modes, [5, 4])
 
 if __name__ == '__main__':
     unittest.main()
@@ -164,9 +164,9 @@ class TestCalculateVariance(unittest.TestCase):
     def test_01(self):
         donations = [100, 60, 70, 900, 100, 200, 500, 500, 503, 600, 1000, 1200]
         variance = calculate_variance(donations)
-        self.assertEqual( variance, 141047)
+        self.assertEqual( variance, 141047.35416666666)
         std = variance**0.5
-        self.assertEqual( std, 375.56224517381935)
+        self.assertEqual( std, 375.5627166887931)
 
 if __name__ == '__main__':
     unittest.main()
